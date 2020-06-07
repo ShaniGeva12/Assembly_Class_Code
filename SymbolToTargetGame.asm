@@ -212,8 +212,8 @@ main:
         int 16h
         ;now AH = BIOS scan code
         
-        ;and we can send the key pressed 
-        ;into the function to see which key it was
+        ;and we can use the key pressed 
+        ;in the function to see which key it was
 ;--------------------------------------------------------        
         
      ;using 64h/60h ports
@@ -234,8 +234,8 @@ main:
         
         ;now AH = BIOS scan code + 80h for release (msb)
        
-        ;and we can send the key pressed 
-        ;into the function to see which key it was
+        ;and we can use the key pressed 
+        ;in the function to see which key it was
 
 ;--------------------------------------------------------
 
